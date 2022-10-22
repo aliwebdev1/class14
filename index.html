@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"> -->
+    <title>Bootstrap start from class 13</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img class="logo-image img-fluid" src="./Img/Logo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link text-white" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Service
+                    </a>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item" href="#">Smart Phone</a></li>
+                      <li><a class="dropdown-item" href="#">IPhoe Eleven</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Walton Phone</a></li>
+
+                    </ul>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" aria-current="page" href="#">Blog</a>
+                      </li>
+                  </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" aria-current="page" href="#"> Contact Us</a>
+                      </li>
+                  </li>
+                </ul>
+
+               <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> 
+              </div>
+            </div>
+
+
+          </nav>
+    </header>
+
+<!-- slider start -->
+    <section class="slider-section container">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+              <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="./Img/slider1.png" class="d-block w-100 img-fluid slider-image" alt="...">
+                </div>
+                <div class="col-lg-6">
+                    <h1>Custom Slider Design</h1>
+                    <p class="py-5">Some representative placeholder content for the first slide. Some representative placeholder content for the first slide.</p>
+                    <button class="btn btn-dark btn-lg">See More</button>
+                </div>
+              </div>
+              </div>
+
+
+
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="./Img/slider2.png" class="d-block w-100 img-fluid slider-image" alt="...">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>Custom 2 Slider Design</h1>
+                        <p class="py-5">Some representative placeholder content for the first slide. Some representative placeholder content for the first slide.</p>
+                        <button class="btn btn-dark btn-lg">See More</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <img src="./Img/slider3.png" class="d-block w-100 img-fluid slider-image" alt="...">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>Custom 3 Slider Design</h1>
+                        <p class="py-5">Some representative placeholder content for the first slide. Some representative placeholder content for the first slide.</p>
+                        <button class="btn btn-dark btn-lg">See More</button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+    
+
+
+    
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+</body>
+</html>
